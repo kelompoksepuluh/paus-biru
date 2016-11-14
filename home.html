@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		html,body{
+  height:100%;
+}
+body{
+  text-align:center;
+  margin:100px;
+  background:#222 url(//images.weserv.nl/?url=i.imgur.com/NrIDycX.jpg) no-repeat;
+  background-size:cover;
+  overflow:hidden
+}
+.fancy-btn{
+  display:inline-block;
+  position:relative;
+  padding:10px 20px;
+  border:2px solid #fda;
+  color:#fda;
+  font-family:'Dancing Script',serif;
+  font-style:italic;
+  font-size:30px;
+  text-decoration:none;
+  margin:20px auto;
+}
+.fancy-btn:after{
+  content:" ";
+  border:2px solid rgba(0,0,0,0);
+  display:inline-block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  transition:all 0.4s;
+}
+
+.fancy-btn:hover:after{  
+  border:2px solid #fda;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px); 
+}
+	</style>
+	<title>Home</title>
+</head>
+<body>
+<a href="https://kelompoksepuluh.github.io/paus-biru/deskripsi.html" class="fancy-btn">Deskripsi</a> <br>
+<a href="https://kelompoksepuluh.github.io/paus-biru/anatomi.html" class="fancy-btn">Anatomi.</a> <br>
+<a href="https://kelompoksepuluh.github.io/paus-biru/populasi.html" class="fancy-btn">Populasi</a> <br>
+<a href="https://kelompoksepuluh.github.io/paus-biru/taksonomi.html" class="fancy-btn">Taksonomi</a> <br>
+<a href="https://kelompoksepuluh.github.io/paus-biru/evolusi.html" class="fancy-btn">Evolusi</a> <br>
+</body>
+</html>
