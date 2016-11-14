@@ -110,3 +110,96 @@ body {
     transform: translate(5, 5);
   }
 }
+
+.whale .water {
+  position: absolute;
+  margin: 20px;
+  bottom: 220px;
+  width: 200px;
+  height: 200px;
+}
+.whale .water .spray {
+  width: 3px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  top: 54px;
+  left: 99px;
+}
+.whale .water .spray ul {
+  width: 100%;
+  height: 5000px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.whale .water .spray li {
+  display: block;
+  background: #004466;
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  animation: 400ms walk infinite linear;
+}
+@keyframes walk {
+  0% { left: 0; }
+  100% { top: -20px; }
+}
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(22deg); }
+}
+@keyframes rotate2 {
+  0% { transform: rotate(22deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.whale .water .bent {
+  position: absolute;
+  top: 0;
+  left: 99px;
+  width: 102px;
+  height: 56px;
+  overflow: hidden;
+}
+.whale .water .bent.nr2 {
+  left: 0;
+}
+.whale .water .bent.nr2 ul {
+  animation: 400ms rotate2 infinite linear;
+  animation-delay: 100ms;
+}
+.whale .water .bent ul {
+  list-style: none;
+  margin: 0; padding: 0;
+  animation: 400ms rotate infinite linear;
+  animation-delay: 13ms;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+.whale .water .bent li {
+  position: absolute;
+  width: 10px;
+  height: 3px;
+  background: #004466;
+  left: -5px;
+  top: -1.5px;
+}
+.whale .water .bent li:nth-child(1) { transform: rotate(-90deg) translateY(-50px); }
+.whale .water .bent li:nth-child(2) { transform: rotate(-68deg) translateY(-50px); }
+.whale .water .bent li:nth-child(3) { transform: rotate(-46deg) translateY(-50px); }
+.whale .water .bent li:nth-child(4) { transform: rotate(-22deg) translateY(-50px); }
+.whale .water .bent li:nth-child(5) { transform: rotate(0deg) translateY(-50px); }
+.whale .water .bent li:nth-child(6) { transform: rotate(22deg) translateY(-50px); }
+.whale .water .bent li:nth-child(7) { transform: rotate(44deg) translateY(-50px); }
+.whale .water .bent li:nth-child(8) { transform: rotate(66deg) translateY(-50px); }
+.whale .water .bent li:nth-child(9) { transform: rotate(88deg) translateY(-50px); }
+.whale .water .bent li:nth-child(10) { transform: rotate(110deg) translateY(-50px); }
+.whale .water .bent li:nth-child(11) { transform: rotate(132deg) translateY(-50px); }
+.whale .water .bent li:nth-child(12) { transform: rotate(154deg) translateY(-50px); }
+.whale .water .bent li:nth-child(13) { transform: rotate(175deg) translateY(-50px); }
+.whale .water .bent li:nth-child(14) { transform: rotate(197deg) translateY(-50px); }
+.whale .water .bent li:nth-child(15) { transform: rotate(219deg) translateY(-50px); }
+.whale .water .bent li:nth-child(16) { transform: rotate(241deg) translateY(-50px); }
