@@ -2,11 +2,20 @@ html {
 	background-color: #fdcdac;
 }
 #sosialmedia {
-	border-top: 1px #000000 solid;
-	border-bottom: 1px #000000 solid;
-	border-left: 1px #000000 solid;
-	border-right: 1px #000000 solid;
+	border-top: 1px;
+	border-bottom: 1px;
 }
 #sosialmedia ul li {
 	display: inline;
 }
+
+li img {
+	width: 54px;
+	height: 54px;
+	transition: 1s ease;
+}
+
+li img:hover {
+	transform: scale(1.25);
+}
+
