@@ -4,6 +4,7 @@ body {
 #wrapper {
 	width: 900px; margin: 0 auto;
 	background-color: #ffffff;
+	height: 1800px
 }
 #sosialmedia {
 	border-top: 1px;
