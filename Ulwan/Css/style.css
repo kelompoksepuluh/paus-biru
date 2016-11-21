@@ -1,0 +1,59 @@
+body {
+  background-color: LIGHTSKYBLUE;
+}
+nav {
+  border-top: 1px;
+  clear: both;
+  background-color: white;
+  border-bottom: 1px;
+}
+#banner img {
+  margin-top: 5px;
+}
+#logo img {
+  float: left;
+  margin: 5px 10px;
+  padding: 20px;
+}
+#nav ul li {
+  display: inline;
+  padding: 15px;
+}
+#nav ul li:hover {
+  background-color: grey;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#nav ul li a {
+  color: black;
+}
+#nav ul li a:link {
+  text-decoration: none;
+}
+#outer {
+  width: 960px;
+  margin: 0 auto;
+  background-color: white;
+  padding-bottom: 15px;
+}
+#sosmed {
+  margin-right: 5px;
+}
+#sosmed ul li {
+  display: inline;
+}
+#sosmed ul li img {
+  height: 40px;
+  float: right;
+  margin-top: 10px;
+}
+#sosmed ul li img:hover {
+  height: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+  }
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+  background-color: white
+}
