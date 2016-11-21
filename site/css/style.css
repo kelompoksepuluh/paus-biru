@@ -2,7 +2,8 @@ body {
 	background-color: #fdcdac;
 }
 #wrapper {
-	width: 900px; margin: 0 auto;
+	width: 900px;
+	margin: 0 auto;
 	background-color: #ffffff;
 	height: 1800px
 }
@@ -19,7 +20,32 @@ body {
 }
 
 #logo {
-	float: left; margin: 10px 10px;
+	float: left;
+	margin: 10px 10px;
+	padding: 20px;
+}
+
+#menu {
+	clear: both;
+	border-top: 1px #ff0000 solid;
+	border-bottom: 1px #ff0000 solid;
+}
+
+#menu ul li {
+	display: inline;
+	padding: 10px;
+	background-color: cyan;
+}
+
+#menu ul li:hover {
+	background-color: red;
+	cursor: pointer;
+}
+
+#banner {
+	height: 300px;
+	width: 900px;
+	margin-top: 10px;
 }
 
 li img {
