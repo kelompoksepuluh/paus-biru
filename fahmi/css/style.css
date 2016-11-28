@@ -1,11 +1,18 @@
 body {
 	background-color: #fdcdac;
+	background-image: url(../image/back.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	/*background-size: 100%;*/
+	background-attachment: fixed;
 }
+
 #wrapper {
 	width: 900px;
 	margin: 0 auto;
 	background-color: #ffffff;
-	height: 1800px
+	height: 1800px;
+	padding: 30px;
 }
 #sosialmedia {
 	border-top: 1px;
@@ -43,9 +50,12 @@ body {
 }
 
 #banner {
+	margin-top: 10px;
+}
+
+#banner_pic {
 	height: 300px;
 	width: 900px;
-	margin-top: 10px;
 }
 
 li img {
@@ -55,6 +65,8 @@ li img {
 }
 
 li img:hover {
-	transform: scale(1.5);
+	/*transform: scale(1.5);*/
+	width: 40px;
+	height: 40px;
 }
 
