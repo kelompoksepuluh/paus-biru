@@ -44,7 +44,7 @@ a, a:link, a:visited, a:hover, a:active, a:focus {
 	background: url(../images/menu-icon.svg) no-repeat center;
 	background-size: cover;
 	min-width: 200px;
-	transition: 0.5s;
+	transition: 0.5s ease;
 }
 .transform {
 	position: relative;
