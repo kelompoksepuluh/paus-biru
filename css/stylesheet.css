@@ -1,88 +1,69 @@
-body {
-	font: 20px "Montserrat", sans-serif;
-	line-height: 1.8;
-	color: #f5f6f7;
+.montserrat{
+	font-family: "Montserrat", sans-serif;
 }
-p {
-	font-size: 16px;
+.navbar{
+	background-color: rgb(35,38,48);
 }
-a, a:link, a:visited, a:hover, a:active, a:focus {
-	color: #ffffff;
-	text-decoration: none;
+.nav {
+	max-width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
-.main {
-	padding-top: 50px;
-	padding-bottom: 90px;
+.nav li>a{
+	line-height: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
-.padding-reset {
-	padding-left: 0;
-	padding-right: 0;
-}
-.navbar {
-	/*padding-top: 5px;
-	padding-bottom: 5px;*/
-	border: 0;
-	border-radius: 0;
-	margin-bottom: 0;
-	font-size: 12px;
+.w3-navbar {
 	letter-spacing: 5px;
+	font-size: 12px; 
 }
-.navbar-nav li a:hover {
-	color: #0bbcd3 !important;
+h1,h2,h3,h4,h5,h6{
+	font-weight: 500;
+	line-height: 1.1;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
-.navbar-brand {
-	padding: 2px;
+.header{
+	padding-top: 50px;
 }
-
-.margin {
-	margin-bottom: 45px;
+.content{
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+.header-background, .content-background {
+	background-color: rgb(73,80,97);
+}
+.footer1-background{
+	background-color: rgb(61,67,81);
+}
+.footer2-background{
+	background-color: rgb(55,61,74);
+	color: white;
 }
 .menu {
-	/*width: 150px;*/
-	height: 200px;
-	/*background-color: #4595b6;*/
+	min-height: 150px;
 	background: url(../images/menu-icon.svg) no-repeat center;
-	background-size: cover;
-	min-width: 200px;
+	background-size: 70%;
+	min-width: 33.33%;
 	transition: 0.5s ease;
-}
-.transform {
-	position: relative;
-	top: 170px;
-	transition: 0.5s ease;
-	overflow: hidden;
-	height: 30px;
-	opacity: 0;
-}
-.text {
-	transition: 0.5s ease;
-	opacity: 0;
+	/*padding: 0;*/
 }
 .menu:hover{
-	box-shadow: 0 0 50px #000000;
+	transform: scale(1.25);
 }
-.menu:hover .text {
-	opacity: 1;
-}
-.menu:hover .transform {
-	background: rgba(0,0,0,0.5);
-	opacity: 1;
-	/*height: 30px;*/
-}
-.anatomy:hover {
+#anatomy:hover {
 	background: url(../images/anatomy.svg) no-repeat center;
-	background-size: cover;
+	background-size: 75%;
 }
-.bg-1 {
-	background-color: #474e58;
-}
-.bg-foot-1 {
-	background-color: #3c3c3c;
-} 
-.bg-foot-2 {
-	background-color: #2f2f2f;
-}
-.foot {
-	padding-top: 70px;
-	padding-bottom: 70px;
+.caption{
+	text-align: center;
+	padding-left: 16px;
+	padding-right: 16px;
+	position: relative;
+	top: 110px;
 }

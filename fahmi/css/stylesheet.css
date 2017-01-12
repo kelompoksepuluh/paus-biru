@@ -44,7 +44,7 @@ a, a:link, a:visited, a:hover, a:active, a:focus {
 	background: url(../images/menu-icon.svg) no-repeat center;
 	background-size: cover;
 	min-width: 200px;
-	transition: 0.5s;
+	transition: 0.5s ease;
 }
 .transform {
 	position: relative;
@@ -85,4 +85,15 @@ a, a:link, a:visited, a:hover, a:active, a:focus {
 .foot {
 	padding-top: 70px;
 	padding-bottom: 70px;
+}
+#social-share-box{
+	/*display: block;*/
+}
+
+#social-share-box #facebook {
+	display: block;
+	/*height: 90px;*/
+	/*width: 90px;*/
+	background: url(../images/facebook-icon.svg) no-repeat center;
+	background-size: cover;
 }
